@@ -43,3 +43,7 @@ Websites built with responsive design will adapt appropriately to various displa
 `var y = function() {
   return 1+1;
 };` -- x is a function that when invoked will return 2. 
+
+# Developer Quiz Practical
+
+## 1. [Solution](practical1.html)
