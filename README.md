@@ -80,7 +80,7 @@ var checkViewportStatus = function() {
   var targetRect = target.getBoundingClientRect();
   var windowHeight = window.innerHeight;
 
-  if (targetRect.top < windowHeight && targetRect.bottom >= 0) {
+  if (targetRect.top < windowHeight && targetRect.bottom > 0) {
     console.log('visible');
   }
 };
