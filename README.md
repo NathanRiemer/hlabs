@@ -72,4 +72,20 @@ The tracking company could collect all the information included in the HTTP requ
 
 I believe a script tag might allow more information about the client to be collected, such as plugin support.
 
+## 3. 
+
+```
+var checkViewportStatus = function() {
+  target = document.getElementById('myimage');
+  var targetRect = target.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  if (targetRect.top < windowHeight && targetRect.bottom >= 0) {
+    console.log('visible');
+  }
+};
+
+window.setInterval(checkViewportStatus, 2000);
+```
+
 
