@@ -47,3 +47,29 @@ Websites built with responsive design will adapt appropriately to various displa
 # Developer Quiz Practical
 
 ## 1. [Solution](practical1.html)
+
+## 2. Tracking Pixel
+
+### a. 
+
+Caching is a problem because if a client has cached the pixel they will not need to request it from our site after their initial visit, and thus we will not be able to include subsequent visits in our visitor total.
+
+### b. 
+
+To prevent browser caching of the pixel image I could append a randomized query string to the image url so that each time the page is visited the client browser perceives it as a new image to be downloaded.
+
+### c. 
+
+If the website is served over HTTPS and the pixel is as specified above the browser will raise a warning about unsecure content. We could fix this by updating the tracking pixel's url to a relative url, so that it will use https when appropriate. 
+
+*I had to look this one up, I used information I found [here](https://productforums.google.com/forum/#!topic/tag-manager/gr8q46Fpy5c)*
+
+### d. 
+
+The tracking company could collect all the information included in the HTTP request, which includes IP address and hostname, the browser type, and the language.
+
+### e.
+
+I believe a script tag might allow more information about the client to be collected, such as plugin support.
+
+
