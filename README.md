@@ -22,28 +22,24 @@ Websites built with responsive design will adapt appropriately to various displa
 
 ## 6. What is the difference between these 3 CSS rules?
 
-div {background:#fff;} -- applies to div elements.
+`div {background:#fff;}` -- applies to div elements.
 
-#div {background:#fff;} -- applies to the element with the id 'div'
+`#div {background:#fff;}` -- applies to the element with the id 'div'
 
-.div {background:#fff;} -- applies to elements with the class 'div'
+`.div {background:#fff;}` -- applies to elements with the class 'div'
 
-7. What is the difference between these 2 uses of the <script> tag?
+## 7. What is the difference between these 2 uses of the <script> tag?
 
-<script src=”http://example.com/whatever.js”></script> -- goes to the url and runs the code there
+`<script src=”http://example.com/whatever.js”></script>` -- goes to the url and runs the code there
 
-<script>var whatever = true</script> -- runs the javascript within the script tags, in this case assigning the variable 'whatever' the value true.
+`<script>var whatever = true</script>` -- runs the javascript within the script tags, in this case assigning the variable 'whatever' the value true.
 
-8. What is the difference between these two javascript snippets?
+## 8. What is the difference between these two javascript snippets?
 
-var x = function() {
+`var x = function() {
+  return 1+1;
+}();` -- x is 2.
 
-return 1+1;
-
-}(); -- x is 2.
-
-var y = function() {
-
-return 1+1;
-
-}; -- x is a function that when invoked will return 2. 
+`var y = function() {
+  return 1+1;
+};` -- x is a function that when invoked will return 2. 
